@@ -8,7 +8,8 @@ body {
   color: #757575;
 }
 ul,
-li {
+li,
+a {
   list-style: none;
 }
 .main-link-color {
@@ -94,4 +95,16 @@ li {
 }
 .footer-text {
   color: #ffffff;
+}
+.caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.caption-hover {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
 }
