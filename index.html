@@ -10,16 +10,18 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="/">Web Studio</a>
-        <ul>
-          <li><a href="/">Студия</a></li>
-          <li><a href="/">Портфолио</a></li>
-          <li><a href="/">Контакты</a></li>
+        <a href="/" class="main-link"
+          >Web
+          <span class="main-link-color">Studio</span>
+        </a>
+        <ul class="list">
+          <li><a href="/" class="link">Студия</a></li>
+          <li><a href="/" class="link">Портфолио</a></li>
+          <li><a href="/" class="link">Контакты</a></li>
         </ul>
         <ul>
           <li>
@@ -38,41 +40,43 @@
     <!-- основная инфо -->
     <div>
       <section>
-        <h1>
+        <h1 class="hero-title">
           эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="/">Заказать услугу</a>
+        <a href="/" class="link">Заказать услугу</a>
       </section>
     </div>
     <section>
-      <h2>Преимущества</h2>
+      <h2 class="section-title">Преимущества</h2>
       <ul>
         <li>
-          <h3>Внимание к деталям</h3>
+          <img src="./icons/main-logo1.svg" alt="logo1" />
+          <h3 class="item-title">Внимание к деталям</h3>
           <p>
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
-
         <li>
-          <h3>Пунктуальность</h3>
+          <img src="./icons/main-logo2.svg" alt="main-logo2" />
+          <h3 class="item-title">Пунктуальность</h3>
           <p>
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
-
         <li>
-          <h3>Планирование</h3>
+          <img src="./icons/main-logo3.svg" alt="logo3" />
+          <h3 class="item-title">Планирование</h3>
           <p>
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
         <li>
-          <h3>Современные технологии</h3>
+          <img src="./icons/main-logo4.svg" alt="logo4" />
+          <h3 class="item-title">Современные технологии</h3>
           <p>
             Значимость этих проблем настолько очевидна, что реализация плановых
             заданий.
@@ -82,16 +86,31 @@
     </section>
     <!-- Чем мы занимаемся -->
     <section>
-      <h3>Чем мы занимаемся</h3>
+      <h3 class="section-title">Чем мы занимаемся</h3>
       <ul>
-        <li>Десктопные приложения</li>
-        <li>мобильные приложения</li>
-        <li>Дизайнерские решения</li>
+        <li>
+          <a href="/" class="link">
+            <img src="./img/desktop-app.jpg" alt="Десктопные приложения" />
+          </a>
+          <p>Десктопные приложения</p>
+        </li>
+        <li>
+          <a href="/" class="link">
+            <img src="./img/mobile-app.jpg" alt="мобильные приложения"
+          /></a>
+          <p>мобильные приложения</p>
+        </li>
+        <li>
+          <a href="/" class="link">
+            <img src="./img/design-solution.jpg" alt="Дизайнерские решения" />
+            <p>Дизайнерские решения</p>
+          </a>
+        </li>
       </ul>
     </section>
     <!-- Наша Команда -->
     <section>
-      <h3>Наша Команда</h3>
+      <h3 class="section-title">Наша Команда</h3>
       <ul>
         <li>
           <img src="/img/team1.png" alt="picture Николай Кучеренко" />
@@ -143,7 +162,7 @@
     </section>
     <!-- Постоянные клиенты -->
     <section>
-      <h4>Постоянные клиенты</h4>
+      <h4 class="section-title">Постоянные клиенты</h4>
       <ul>
         <li>
           <a href="/">company-logo</a>
@@ -168,7 +187,10 @@
     <!-- Подвал -->
     <footer>
       <div>
-        <a href="/">Web Studio</a>
+        <a href="/" class="main-link"
+          >Web
+          <span class="main-link-color">Studio</span>
+        </a>
         <address>
           г. Киев, <br />
           Бульвар Леси Украинки, д. 26, <br />
