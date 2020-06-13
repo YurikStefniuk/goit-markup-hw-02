@@ -264,3 +264,16 @@ a {
 .btn-space:not(:last-child) {
   margin-right: 30px;
 }
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.info-porfolio:not(:last-child) {
+  margin-right: 30px;
+}
+.info-portfolio {
+  margin-left: auto;
+  margin-right: auto;
+}
